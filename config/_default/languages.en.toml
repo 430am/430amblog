@@ -15,7 +15,7 @@ title = "My Supersweet Website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
-  name = "Your name here"
+  name = "Jack Wade"
 #   email = "youremail@example.com"
   image = "img/blueHeadShot.jpg"
   imageQuality = 96
