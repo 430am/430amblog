@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My Supersweet Website</title>
+    <title>Tags on My Awesome Demos</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on My Supersweet Website</description>
+    <description>Recent content in Tags on My Awesome Demos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Jack Wade</copyright>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Azure</title>
       <link>http://localhost:1313/tags/azure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/azure/</guid>
       <description></description>
@@ -20,11 +20,11 @@
     </item>
     
     <item>
-      <title>Configuration</title>
-      <link>http://localhost:1313/tags/configuration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/configuration/</guid>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
       
     </item>
@@ -32,7 +32,7 @@
     <item>
       <title>Terraform</title>
       <link>http://localhost:1313/tags/terraform/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/terraform/</guid>
       <description></description>
