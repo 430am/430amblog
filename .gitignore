@@ -19,3 +19,6 @@ Thumbs.db
 # Environment / secrets
 .env
 .env.*
+
+# Instructions files
+.github/instructions/*
