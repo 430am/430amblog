@@ -6,6 +6,7 @@ draft: false
 description: "Demonstrates how to use the latest Terraform capabilities to deploy and manage SSH keypairs in Azure for VM authentication using Azure Key Vault"
 slug: "terraform-azurekeyvault"
 tags: ["terraform", "Azure", "Security"]
+categories: ["Infrastructure as Code", "Cloud", "Security"]
 ---
 
 There are two "good" ways to manage authentication to Linux VMs in Azure:
@@ -84,7 +85,9 @@ From top to bottom, we're leveraging the latest Terraform version (1.14 at the t
 
 In the `azurerm` provider block, the `key_vault` and `resource_group` features are tuned for an *ephemeral* lab environment. Because we're going to be standing this up and tearing it down repeatedly, `purge_soft_delete_on_destroy = true` makes sure the Key Vault is actually gone when we run `terraform destroy` (rather than sitting in a soft-deleted state and blocking us from re-using the name). Similarly, `prevent_deletion_if_contains_resources = false` lets the resource group be removed even if it still has child resources hanging around.
 
-> **Be careful with these settings in production.** Both options are great for short-lived lab and HPC clusters, but they're _not_ what you want guarding the Key Vault that holds your production secrets.
+> [!WARNING]
+> **Be careful with these settings in production.** 
+> Both options are great for short-lived lab and HPC clusters, but they're *not* what you want guarding the Key Vault that holds your production secrets.
 
 ## variables.tf
 
