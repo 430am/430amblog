@@ -22,3 +22,9 @@ Thumbs.db
 
 # Instructions files
 .github/instructions/*
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
